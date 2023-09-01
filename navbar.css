@@ -4,8 +4,6 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  /* ... (previous styles) ... */
-  
   .search-container {
     float: right;
     padding: 14px;
@@ -16,10 +14,10 @@ body {
     margin-top: 8px;
     font-size: 17px;
     border: none;
-    transition: background-color 0.3s, color 0.3s; /* Added transition */
+    transition: background-color 0.3s, color 0.3s;
   }
   
   .search-container input[type="text"]:hover {
-    background-color: green; /* Background green on hover */
-    color: white; /* White text on hover */
+    background-color: green;
+    color: white;
   }
